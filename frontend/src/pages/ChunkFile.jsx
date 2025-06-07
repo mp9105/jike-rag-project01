@@ -5,6 +5,7 @@ import { apiBaseUrl } from '../config/config';
 const ChunkFile = () => {
   const [loadedDocuments, setLoadedDocuments] = useState([]);
   const [selectedDoc, setSelectedDoc] = useState('');
+  const [selectedDocDetails, setSelectedDocDetails] = useState(null);
   const [chunkingOption, setChunkingOption] = useState('by_pages');
   const [chunkSize, setChunkSize] = useState(1000);
   const [chunks, setChunks] = useState(null);
@@ -12,6 +13,7 @@ const ChunkFile = () => {
   const [activeTab, setActiveTab] = useState('chunks');
   const [processingStatus, setProcessingStatus] = useState('');
   const [chunkedDocuments, setChunkedDocuments] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     fetchLoadedDocuments();
@@ -19,10 +21,13 @@ const ChunkFile = () => {
 
   const fetchLoadedDocuments = async () => {
     try {
+      setIsLoading(true);
+      // 获取已加载的文档
       const response = await fetch(`${apiBaseUrl}/documents?type=loaded`);
       const data = await response.json();
       setLoadedDocuments(data.documents);
 
+      // 获取已分块的文档
       const chunkedResponse = await fetch(`${apiBaseUrl}/documents?type=chunked`);
       if (!chunkedResponse.ok) {
         throw new Error(`HTTP error! status: ${chunkedResponse.status}`);
@@ -35,6 +40,7 @@ const ChunkFile = () => {
         return;
       }
 
+      // 获取每个分块文档的详细信息
       const chunkedDocsWithDetails = await Promise.all(
         chunkedData.documents.map(async (doc) => {
           try {
@@ -65,6 +71,37 @@ const ChunkFile = () => {
     } catch (error) {
       console.error('Error fetching documents:', error);
       setProcessingStatus(`Error fetching documents: ${error.message}`);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // 当选择文档时获取文档详情
+  const handleDocumentSelect = async (docId) => {
+    if (!docId) {
+      setSelectedDoc('');
+      setSelectedDocDetails(null);
+      return;
+    }
+
+    setSelectedDoc(docId);
+    setStatus('Loading document details...');
+
+    try {
+      const docIdWithJson = docId.endsWith('.json') ? docId : `${docId}.json`;
+      const response = await fetch(`${apiBaseUrl}/documents/${docIdWithJson}?type=loaded`);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      setSelectedDocDetails(data);
+      setStatus('');
+    } catch (error) {
+      console.error('Error loading document details:', error);
+      setStatus(`Error loading document details: ${error.message}`);
+      setSelectedDocDetails(null);
     }
   };
 
@@ -152,6 +189,17 @@ const ChunkFile = () => {
     } catch (error) {
       console.error('Error viewing document:', error);
       setProcessingStatus(`Error viewing document: ${error.message}`);
+    }
+  };
+
+  // 获取文档类型
+  const getDocumentType = (filename) => {
+    if (filename.toLowerCase().endsWith('.pdf')) {
+      return 'PDF';
+    } else if (filename.toLowerCase().endsWith('.md')) {
+      return 'Markdown';
+    } else {
+      return 'Unknown';
     }
   };
 
@@ -250,7 +298,7 @@ const ChunkFile = () => {
                   </div>
                 ))
               ) : (
-                <div className="text-center text-gray-500 py-8 w-full">
+                <div className="text-center text-gray-500 py-8">
                   No chunked documents available
                 </div>
               )}
@@ -269,22 +317,36 @@ const ChunkFile = () => {
         {/* Left Panel */}
         <div className="col-span-3 space-y-4">
           <div className="p-4 border rounded-lg bg-white shadow-sm">
+            <h3 className="text-lg font-semibold mb-4">Chunk Configuration</h3>
+            
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Select Document</label>
               <select
                 value={selectedDoc}
-                onChange={(e) => setSelectedDoc(e.target.value)}
+                onChange={(e) => handleDocumentSelect(e.target.value)}
                 className="block w-full p-2 border rounded"
+                disabled={isLoading}
               >
-                <option value="">Choose a document...</option>
+                <option value="">-- Select a document --</option>
                 {loadedDocuments.map((doc) => (
                   <option key={doc.name} value={doc.name}>
-                    {doc.name}
+                    {doc.name} ({getDocumentType(doc.name)})
                   </option>
                 ))}
               </select>
             </div>
 
+            {selectedDocDetails && (
+              <div className="mb-4 p-3 border rounded bg-gray-50">
+                <h4 className="font-medium text-sm mb-2">Selected Document Info</h4>
+                <div className="text-xs text-gray-600">
+                  <p>Pages: {selectedDocDetails.total_pages}</p>
+                  <p>Loading Method: {selectedDocDetails.loading_method}</p>
+                  <p>File Type: {getDocumentType(selectedDocDetails.filename)}</p>
+                </div>
+              </div>
+            )}
+            
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Chunking Method</label>
               <select
@@ -297,31 +359,44 @@ const ChunkFile = () => {
                 <option value="by_paragraphs">By Paragraphs</option>
                 <option value="by_sentences">By Sentences</option>
               </select>
+              <div className="mt-1 text-xs text-gray-500">
+                {chunkingOption === 'by_pages' && 'Each page will be a separate chunk'}
+                {chunkingOption === 'fixed_size' && 'Text will be split into chunks of specified size'}
+                {chunkingOption === 'by_paragraphs' && 'Each paragraph will be a separate chunk'}
+                {chunkingOption === 'by_sentences' && 'Each sentence will be a separate chunk'}
+              </div>
             </div>
-
+            
             {chunkingOption === 'fixed_size' && (
               <div className="mb-4">
-                <label className="block text-sm font-medium mb-1">Chunk Size</label>
+                <label className="block text-sm font-medium mb-1">Chunk Size (characters)</label>
                 <input
                   type="number"
                   value={chunkSize}
-                  onChange={(e) => setChunkSize(Number(e.target.value))}
+                  onChange={(e) => setChunkSize(parseInt(e.target.value))}
                   className="block w-full p-2 border rounded"
                   min="100"
-                  max="5000"
+                  max="10000"
                 />
+                <div className="mt-1 text-xs text-gray-500">
+                  Recommended: 1000-2000 for general use
+                </div>
               </div>
             )}
-
-            <button 
+            
+            <button
               onClick={handleChunk}
-              className="w-full px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-              disabled={!selectedDoc}
+              disabled={!selectedDoc || isLoading}
+              className={`w-full px-4 py-2 text-white rounded ${
+                !selectedDoc || isLoading
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-blue-500 hover:bg-blue-600'
+              }`}
             >
-              Create Chunks
+              {isLoading ? 'Processing...' : 'Create Chunks'}
             </button>
           </div>
-
+          
           {status && (
             <div className={`p-4 rounded-lg ${
               status.includes('Error') ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'
@@ -330,7 +405,7 @@ const ChunkFile = () => {
             </div>
           )}
         </div>
-
+        
         {/* Right Panel */}
         <div className="col-span-9 border rounded-lg bg-white shadow-sm">
           {renderRightPanel()}

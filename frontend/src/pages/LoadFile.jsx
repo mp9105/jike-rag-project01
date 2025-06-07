@@ -5,6 +5,7 @@ import { apiBaseUrl } from '../config/config';
 
 const LoadFile = () => {
   const [file, setFile] = useState(null);
+  const [fileType, setFileType] = useState('pdf');
   const [loadingMethod, setLoadingMethod] = useState('pymupdf');
   const [unstructuredStrategy, setUnstructuredStrategy] = useState('fast');
   const [chunkingStrategy, setChunkingStrategy] = useState('basic');
@@ -26,6 +27,15 @@ const LoadFile = () => {
     fetchDocuments();
   }, []);
 
+  // 当文件类型改变时，重置加载方法为该类型的默认方法
+  useEffect(() => {
+    if (fileType === 'pdf') {
+      setLoadingMethod('pymupdf');
+    } else if (fileType === 'markdown') {
+      setLoadingMethod('plain');
+    }
+  }, [fileType]);
+
   const fetchDocuments = async () => {
     try {
       const response = await fetch(`${apiBaseUrl}/documents?type=loaded`);
@@ -34,6 +44,29 @@ const LoadFile = () => {
     } catch (error) {
       console.error('Error fetching documents:', error);
     }
+  };
+
+  // 检测文件类型并设置适当的加载方法
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setFile(selectedFile);
+      
+      // 根据文件扩展名设置文件类型
+      const fileName = selectedFile.name.toLowerCase();
+      if (fileName.endsWith('.pdf')) {
+        setFileType('pdf');
+        setLoadingMethod('pymupdf'); // 默认PDF加载方法
+      } else if (fileName.endsWith('.md')) {
+        setFileType('markdown');
+        setLoadingMethod('plain'); // 默认Markdown加载方法
+      }
+    }
+  };
+
+  // 手动选择文件类型
+  const handleFileTypeChange = (e) => {
+    setFileType(e.target.value);
   };
 
   const handleProcess = async () => {
@@ -49,6 +82,7 @@ const LoadFile = () => {
       const formData = new FormData();
       formData.append('file', file);
       formData.append('loading_method', loadingMethod);
+      formData.append('file_type', fileType);
       
       if (loadingMethod === 'unstructured') {
         formData.append('strategy', unstructuredStrategy);
@@ -236,42 +270,72 @@ const LoadFile = () => {
         <div className="col-span-3 space-y-4">
           <div className="p-4 border rounded-lg bg-white shadow-sm">
             <div>
-              <label className="block text-sm font-medium mb-1">Upload PDF</label>
+              <label className="block text-sm font-medium mb-1">Upload Document</label>
               <input
                 type="file"
-                accept=".pdf"
-                onChange={(e) => setFile(e.target.files[0])}
+                accept=".pdf,.md"
+                onChange={handleFileChange}
                 className="block w-full border rounded px-3 py-2"
               />
+              <div className="mt-1 text-xs text-gray-500">
+                Supported formats: PDF, Markdown (.md)
+              </div>
+            </div>
+
+            <div className="mt-4">
+              <label className="block text-sm font-medium mb-1">File Type</label>
+              <select
+                value={fileType}
+                onChange={handleFileTypeChange}
+                className="block w-full p-2 border rounded"
+              >
+                <option value="pdf">PDF Document</option>
+                <option value="markdown">Markdown Document</option>
+              </select>
             </div>
 
             <div className="mt-4">
               <label className="block text-sm font-medium mb-1">Loading Method</label>
-              <select
-                value={loadingMethod}
-                onChange={(e) => setLoadingMethod(e.target.value)}
-                className="block w-full p-2 border rounded"
-              >
-                <option value="pymupdf">PyMuPDF</option>
-                <option value="pypdf">PyPDF</option>
-                <option value="unstructured">Unstructured</option>
-              </select>
+              {fileType === 'pdf' ? (
+                <select
+                  value={loadingMethod}
+                  onChange={(e) => setLoadingMethod(e.target.value)}
+                  className="block w-full p-2 border rounded"
+                >
+                  <option value="pymupdf">PyMuPDF</option>
+                  <option value="pypdf">PyPDF</option>
+                  <option value="pdfplumber">PDF Plumber</option>
+                  <option value="unstructured">Unstructured</option>
+                </select>
+              ) : (
+                <select
+                  value={loadingMethod}
+                  onChange={(e) => setLoadingMethod(e.target.value)}
+                  className="block w-full p-2 border rounded"
+                >
+                  <option value="plain">Plain Text</option>
+                  <option value="unstructured">Unstructured</option>
+                </select>
+              )}
             </div>
 
-            {loadingMethod === 'unstructured' && (
+            {((fileType === 'pdf' && loadingMethod === 'unstructured') || 
+              (fileType === 'markdown' && loadingMethod === 'unstructured')) && (
               <>
-                <div className="mt-4">
-                  <label className="block text-sm font-medium mb-1">Unstructured Strategy</label>
-                  <select
-                    value={unstructuredStrategy}
-                    onChange={(e) => setUnstructuredStrategy(e.target.value)}
-                    className="block w-full p-2 border rounded"
-                  >
-                    <option value="fast">Fast</option>
-                    <option value="hi_res">High Resolution</option>
-                    <option value="ocr_only">OCR Only</option>
-                  </select>
-                </div>
+                {fileType === 'pdf' && (
+                  <div className="mt-4">
+                    <label className="block text-sm font-medium mb-1">Unstructured Strategy</label>
+                    <select
+                      value={unstructuredStrategy}
+                      onChange={(e) => setUnstructuredStrategy(e.target.value)}
+                      className="block w-full p-2 border rounded"
+                    >
+                      <option value="fast">Fast</option>
+                      <option value="hi_res">High Resolution</option>
+                      <option value="ocr_only">OCR Only</option>
+                    </select>
+                  </div>
+                )}
 
                 <div className="mt-4">
                   <label className="block text-sm font-medium mb-1">Chunking Strategy</label>

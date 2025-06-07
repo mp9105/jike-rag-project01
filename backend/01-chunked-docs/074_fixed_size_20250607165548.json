@@ -1,0 +1,4494 @@
+{
+  "filename": "074.pdf",
+  "total_chunks": 498,
+  "total_pages": 1,
+  "loading_method": "pymupdf",
+  "chunking_method": "fixed_size",
+  "file_type": "pdf",
+  "chunk_size": 10,
+  "timestamp": "2025-06-07T16:55:48.949543",
+  "chunks": [
+    {
+      "content": "Key ESG",
+      "metadata": {
+        "chunk_id": 1,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Data",
+      "metadata": {
+        "chunk_id": 2,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2022\n2021",
+      "metadata": {
+        "chunk_id": 3,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2020",
+      "metadata": {
+        "chunk_id": 4,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Energy1",
+      "metadata": {
+        "chunk_id": 5,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Megawatt",
+      "metadata": {
+        "chunk_id": 6,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "hours",
+      "metadata": {
+        "chunk_id": 7,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Terajoule",
+      "metadata": {
+        "chunk_id": 8,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "es",
+      "metadata": {
+        "chunk_id": 9,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Megawatt",
+      "metadata": {
+        "chunk_id": 10,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "hours",
+      "metadata": {
+        "chunk_id": 11,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Terajoule",
+      "metadata": {
+        "chunk_id": 12,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "es",
+      "metadata": {
+        "chunk_id": 13,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Megawatt",
+      "metadata": {
+        "chunk_id": 14,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "hours",
+      "metadata": {
+        "chunk_id": 15,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Terajoule",
+      "metadata": {
+        "chunk_id": 16,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "es",
+      "metadata": {
+        "chunk_id": 17,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Natural",
+      "metadata": {
+        "chunk_id": 18,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "gas",
+      "metadata": {
+        "chunk_id": 19,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,928,000",
+      "metadata": {
+        "chunk_id": 20,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "6,941",
+      "metadata": {
+        "chunk_id": 21,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,712,000",
+      "metadata": {
+        "chunk_id": 22,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "6,163",
+      "metadata": {
+        "chunk_id": 23,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,686,000",
+      "metadata": {
+        "chunk_id": 24,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "6,070",
+      "metadata": {
+        "chunk_id": 25,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Jet",
+      "metadata": {
+        "chunk_id": 26,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "kerosene",
+      "metadata": {
+        "chunk_id": 27,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "861,000",
+      "metadata": {
+        "chunk_id": 28,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "3,100",
+      "metadata": {
+        "chunk_id": 29,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "804,000",
+      "metadata": {
+        "chunk_id": 30,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,894",
+      "metadata": {
+        "chunk_id": 31,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "544,000",
+      "metadata": {
+        "chunk_id": 32,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,958",
+      "metadata": {
+        "chunk_id": 33,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Fuel oil",
+      "metadata": {
+        "chunk_id": 34,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "#2",
+      "metadata": {
+        "chunk_id": 35,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "127,000",
+      "metadata": {
+        "chunk_id": 36,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "457",
+      "metadata": {
+        "chunk_id": 37,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "153,000",
+      "metadata": {
+        "chunk_id": 38,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "551",
+      "metadata": {
+        "chunk_id": 39,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "149,000",
+      "metadata": {
+        "chunk_id": 40,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "536",
+      "metadata": {
+        "chunk_id": 41,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Motor",
+      "metadata": {
+        "chunk_id": 42,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "gasoline",
+      "metadata": {
+        "chunk_id": 43,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "24,000\n86",
+      "metadata": {
+        "chunk_id": 44,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "21,000\n76",
+      "metadata": {
+        "chunk_id": 45,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "21,000\n76",
+      "metadata": {
+        "chunk_id": 46,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Propane",
+      "metadata": {
+        "chunk_id": 47,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "11,000\n40",
+      "metadata": {
+        "chunk_id": 48,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "10,000\n36",
+      "metadata": {
+        "chunk_id": 49,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "12,000\n43",
+      "metadata": {
+        "chunk_id": 50,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Liquefied",
+      "metadata": {
+        "chunk_id": 51,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "petroleum",
+      "metadata": {
+        "chunk_id": 52,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "gas",
+      "metadata": {
+        "chunk_id": 53,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,000\n7",
+      "metadata": {
+        "chunk_id": 54,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "1,000\n4\n–",
+      "metadata": {
+        "chunk_id": 55,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "–",
+      "metadata": {
+        "chunk_id": 56,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Total",
+      "metadata": {
+        "chunk_id": 57,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "nonrenewa",
+      "metadata": {
+        "chunk_id": 58,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "able",
+      "metadata": {
+        "chunk_id": 59,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "fuels",
+      "metadata": {
+        "chunk_id": 60,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,953,000",
+      "metadata": {
+        "chunk_id": 61,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "10,631",
+      "metadata": {
+        "chunk_id": 62,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,701,000",
+      "metadata": {
+        "chunk_id": 63,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "9,724",
+      "metadata": {
+        "chunk_id": 64,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,412,000",
+      "metadata": {
+        "chunk_id": 65,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "8,683",
+      "metadata": {
+        "chunk_id": 66,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Sustainab",
+      "metadata": {
+        "chunk_id": 67,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ble",
+      "metadata": {
+        "chunk_id": 68,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "aviation",
+      "metadata": {
+        "chunk_id": 69,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "fuel",
+      "metadata": {
+        "chunk_id": 70,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "9,000\n32",
+      "metadata": {
+        "chunk_id": 71,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "4,000\n14",
+      "metadata": {
+        "chunk_id": 72,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2,000\n7",
+      "metadata": {
+        "chunk_id": 73,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Total",
+      "metadata": {
+        "chunk_id": 74,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "renewable",
+      "metadata": {
+        "chunk_id": 75,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "fuels",
+      "metadata": {
+        "chunk_id": 76,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "9,000\n32",
+      "metadata": {
+        "chunk_id": 77,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "4,000\n14",
+      "metadata": {
+        "chunk_id": 78,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2,000\n7",
+      "metadata": {
+        "chunk_id": 79,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Purchased",
+      "metadata": {
+        "chunk_id": 80,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "nonrenewa",
+      "metadata": {
+        "chunk_id": 81,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "able",
+      "metadata": {
+        "chunk_id": 82,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 83,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity",
+      "metadata": {
+        "chunk_id": 84,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,350,000",
+      "metadata": {
+        "chunk_id": 85,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "4,860",
+      "metadata": {
+        "chunk_id": 86,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,482,000",
+      "metadata": {
+        "chunk_id": 87,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "5,335",
+      "metadata": {
+        "chunk_id": 88,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,686,000",
+      "metadata": {
+        "chunk_id": 89,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "6,070",
+      "metadata": {
+        "chunk_id": 90,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Purchased",
+      "metadata": {
+        "chunk_id": 91,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "renewable",
+      "metadata": {
+        "chunk_id": 92,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 93,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity2",
+      "metadata": {
+        "chunk_id": 94,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "720,000",
+      "metadata": {
+        "chunk_id": 95,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,592",
+      "metadata": {
+        "chunk_id": 96,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "574,000",
+      "metadata": {
+        "chunk_id": 97,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,066",
+      "metadata": {
+        "chunk_id": 98,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "392,000",
+      "metadata": {
+        "chunk_id": 99,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,411",
+      "metadata": {
+        "chunk_id": 100,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Total",
+      "metadata": {
+        "chunk_id": 101,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "purchased",
+      "metadata": {
+        "chunk_id": 102,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 103,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity",
+      "metadata": {
+        "chunk_id": 104,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,070,000",
+      "metadata": {
+        "chunk_id": 105,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "7,452",
+      "metadata": {
+        "chunk_id": 106,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,056,000",
+      "metadata": {
+        "chunk_id": 107,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "7,402",
+      "metadata": {
+        "chunk_id": 108,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2,078,000",
+      "metadata": {
+        "chunk_id": 109,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "7,481",
+      "metadata": {
+        "chunk_id": 110,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Total",
+      "metadata": {
+        "chunk_id": 111,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "energy",
+      "metadata": {
+        "chunk_id": 112,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "use",
+      "metadata": {
+        "chunk_id": 113,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "5,033,000",
+      "metadata": {
+        "chunk_id": 114,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "18,119",
+      "metadata": {
+        "chunk_id": 115,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "4,761,000",
+      "metadata": {
+        "chunk_id": 116,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "17,410",
+      "metadata": {
+        "chunk_id": 117,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "4,492,000",
+      "metadata": {
+        "chunk_id": 118,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "16,171",
+      "metadata": {
+        "chunk_id": 119,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Environme",
+      "metadata": {
+        "chunk_id": 120,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ental",
+      "metadata": {
+        "chunk_id": 121,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Data",
+      "metadata": {
+        "chunk_id": 122,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Emissions",
+      "metadata": {
+        "chunk_id": 123,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "s1",
+      "metadata": {
+        "chunk_id": 124,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Tons CO2e",
+      "metadata": {
+        "chunk_id": 125,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Metric",
+      "metadata": {
+        "chunk_id": 126,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tons CO2e",
+      "metadata": {
+        "chunk_id": 127,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Tons CO2e",
+      "metadata": {
+        "chunk_id": 128,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Metric",
+      "metadata": {
+        "chunk_id": 129,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tons CO2e",
+      "metadata": {
+        "chunk_id": 130,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Tons CO2e",
+      "metadata": {
+        "chunk_id": 131,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Metric",
+      "metadata": {
+        "chunk_id": 132,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tons CO2e",
+      "metadata": {
+        "chunk_id": 133,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Scope 1",
+      "metadata": {
+        "chunk_id": 134,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG2,3",
+      "metadata": {
+        "chunk_id": 135,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "708,000",
+      "metadata": {
+        "chunk_id": 136,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "642,000",
+      "metadata": {
+        "chunk_id": 137,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "675,000",
+      "metadata": {
+        "chunk_id": 138,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "612,000",
+      "metadata": {
+        "chunk_id": 139,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "611,000",
+      "metadata": {
+        "chunk_id": 140,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "554,000",
+      "metadata": {
+        "chunk_id": 141,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 2",
+      "metadata": {
+        "chunk_id": 142,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG —",
+      "metadata": {
+        "chunk_id": 143,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "location-",
+      "metadata": {
+        "chunk_id": 144,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "-based2,3",
+      "metadata": {
+        "chunk_id": 145,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "859,000",
+      "metadata": {
+        "chunk_id": 146,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "779,000",
+      "metadata": {
+        "chunk_id": 147,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "830,000",
+      "metadata": {
+        "chunk_id": 148,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "753,000",
+      "metadata": {
+        "chunk_id": 149,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "840,000",
+      "metadata": {
+        "chunk_id": 150,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "762,000",
+      "metadata": {
+        "chunk_id": 151,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 2",
+      "metadata": {
+        "chunk_id": 152,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG —",
+      "metadata": {
+        "chunk_id": 153,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "market-ba",
+      "metadata": {
+        "chunk_id": 154,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ased2,3",
+      "metadata": {
+        "chunk_id": 155,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "442,000",
+      "metadata": {
+        "chunk_id": 156,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "401,000",
+      "metadata": {
+        "chunk_id": 157,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "493,000",
+      "metadata": {
+        "chunk_id": 158,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "447,000",
+      "metadata": {
+        "chunk_id": 159,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "580,000",
+      "metadata": {
+        "chunk_id": 160,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "526,000",
+      "metadata": {
+        "chunk_id": 161,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 3",
+      "metadata": {
+        "chunk_id": 162,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG —",
+      "metadata": {
+        "chunk_id": 163,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "business",
+      "metadata": {
+        "chunk_id": 164,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "travel",
+      "metadata": {
+        "chunk_id": 165,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "205,000",
+      "metadata": {
+        "chunk_id": 166,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "186,000",
+      "metadata": {
+        "chunk_id": 167,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "97,000",
+      "metadata": {
+        "chunk_id": 168,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "88,000",
+      "metadata": {
+        "chunk_id": 169,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "101,000",
+      "metadata": {
+        "chunk_id": 170,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "92,000",
+      "metadata": {
+        "chunk_id": 171,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 3",
+      "metadata": {
+        "chunk_id": 172,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG — use",
+      "metadata": {
+        "chunk_id": 173,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "of sold",
+      "metadata": {
+        "chunk_id": 174,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "products",
+      "metadata": {
+        "chunk_id": 175,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "(Commerci",
+      "metadata": {
+        "chunk_id": 176,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ial",
+      "metadata": {
+        "chunk_id": 177,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Airplanes",
+      "metadata": {
+        "chunk_id": 178,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "s)3,6",
+      "metadata": {
+        "chunk_id": 179,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "400,000,0",
+      "metadata": {
+        "chunk_id": 180,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 181,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "363,000,0",
+      "metadata": {
+        "chunk_id": 182,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 183,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "306,000,0",
+      "metadata": {
+        "chunk_id": 184,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 185,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "278,000,0",
+      "metadata": {
+        "chunk_id": 186,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 187,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "246,000,0",
+      "metadata": {
+        "chunk_id": 188,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 189,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "223,000,0",
+      "metadata": {
+        "chunk_id": 190,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "000",
+      "metadata": {
+        "chunk_id": 191,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 3",
+      "metadata": {
+        "chunk_id": 192,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "GHG — use",
+      "metadata": {
+        "chunk_id": 193,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "of sold",
+      "metadata": {
+        "chunk_id": 194,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "products",
+      "metadata": {
+        "chunk_id": 195,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "(Defense,",
+      "metadata": {
+        "chunk_id": 196,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Space &",
+      "metadata": {
+        "chunk_id": 197,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Security)",
+      "metadata": {
+        "chunk_id": 198,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ")3,6",
+      "metadata": {
+        "chunk_id": 199,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "24,000,00",
+      "metadata": {
+        "chunk_id": 200,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 201,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "22,000,00",
+      "metadata": {
+        "chunk_id": 202,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 203,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "24,000,00",
+      "metadata": {
+        "chunk_id": 204,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 205,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "22,000,00",
+      "metadata": {
+        "chunk_id": 206,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 207,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "22,000,00",
+      "metadata": {
+        "chunk_id": 208,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 209,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "20,000,00",
+      "metadata": {
+        "chunk_id": 210,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "00",
+      "metadata": {
+        "chunk_id": 211,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Total",
+      "metadata": {
+        "chunk_id": 212,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "calculate",
+      "metadata": {
+        "chunk_id": 213,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ed",
+      "metadata": {
+        "chunk_id": 214,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "GHG",
+      "metadata": {
+        "chunk_id": 215,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "excluding",
+      "metadata": {
+        "chunk_id": 216,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sold",
+      "metadata": {
+        "chunk_id": 217,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "products",
+      "metadata": {
+        "chunk_id": 218,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,355,000",
+      "metadata": {
+        "chunk_id": 219,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,229,000",
+      "metadata": {
+        "chunk_id": 220,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,264,000",
+      "metadata": {
+        "chunk_id": 221,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,147,000",
+      "metadata": {
+        "chunk_id": 222,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,292,000",
+      "metadata": {
+        "chunk_id": 223,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1,172,000",
+      "metadata": {
+        "chunk_id": 224,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Core",
+      "metadata": {
+        "chunk_id": 225,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "metrics",
+      "metadata": {
+        "chunk_id": 226,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sites GHG",
+      "metadata": {
+        "chunk_id": 227,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "—",
+      "metadata": {
+        "chunk_id": 228,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "location-",
+      "metadata": {
+        "chunk_id": 229,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "-based4",
+      "metadata": {
+        "chunk_id": 230,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "724,000",
+      "metadata": {
+        "chunk_id": 231,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "657,000",
+      "metadata": {
+        "chunk_id": 232,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "702,000",
+      "metadata": {
+        "chunk_id": 233,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "637,000",
+      "metadata": {
+        "chunk_id": 234,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "713,000",
+      "metadata": {
+        "chunk_id": 235,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "647,000",
+      "metadata": {
+        "chunk_id": 236,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Core",
+      "metadata": {
+        "chunk_id": 237,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "metrics",
+      "metadata": {
+        "chunk_id": 238,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sites GHG",
+      "metadata": {
+        "chunk_id": 239,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "—",
+      "metadata": {
+        "chunk_id": 240,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "market-ba",
+      "metadata": {
+        "chunk_id": 241,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ased4",
+      "metadata": {
+        "chunk_id": 242,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "323,000",
+      "metadata": {
+        "chunk_id": 243,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "293,000",
+      "metadata": {
+        "chunk_id": 244,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "376,000",
+      "metadata": {
+        "chunk_id": 245,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "341,000",
+      "metadata": {
+        "chunk_id": 246,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "452,000",
+      "metadata": {
+        "chunk_id": 247,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "410,000",
+      "metadata": {
+        "chunk_id": 248,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "GHG",
+      "metadata": {
+        "chunk_id": 249,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Intensity",
+      "metadata": {
+        "chunk_id": 250,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "y5",
+      "metadata": {
+        "chunk_id": 251,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "$0.00002",
+      "metadata": {
+        "chunk_id": 252,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "$0.00002",
+      "metadata": {
+        "chunk_id": 253,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "$0.00002",
+      "metadata": {
+        "chunk_id": 254,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1",
+      "metadata": {
+        "chunk_id": 255,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". Data",
+      "metadata": {
+        "chunk_id": 256,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "represent",
+      "metadata": {
+        "chunk_id": 257,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ts",
+      "metadata": {
+        "chunk_id": 258,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "100% of",
+      "metadata": {
+        "chunk_id": 259,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "the",
+      "metadata": {
+        "chunk_id": 260,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "company.",
+      "metadata": {
+        "chunk_id": 261,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2",
+      "metadata": {
+        "chunk_id": 262,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".",
+      "metadata": {
+        "chunk_id": 263,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Renewable",
+      "metadata": {
+        "chunk_id": 264,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 265,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity",
+      "metadata": {
+        "chunk_id": 266,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "data",
+      "metadata": {
+        "chunk_id": 267,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "excludes",
+      "metadata": {
+        "chunk_id": 268,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "any",
+      "metadata": {
+        "chunk_id": 269,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "renewable",
+      "metadata": {
+        "chunk_id": 270,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "energy",
+      "metadata": {
+        "chunk_id": 271,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "that is",
+      "metadata": {
+        "chunk_id": 272,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "part of",
+      "metadata": {
+        "chunk_id": 273,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "the grid",
+      "metadata": {
+        "chunk_id": 274,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "by",
+      "metadata": {
+        "chunk_id": 275,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "default,",
+      "metadata": {
+        "chunk_id": 276,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "in",
+      "metadata": {
+        "chunk_id": 277,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "alignment",
+      "metadata": {
+        "chunk_id": 278,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "with SASB",
+      "metadata": {
+        "chunk_id": 279,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "and other",
+      "metadata": {
+        "chunk_id": 280,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "framework",
+      "metadata": {
+        "chunk_id": 281,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ks",
+      "metadata": {
+        "chunk_id": 282,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". Notably,",
+      "metadata": {
+        "chunk_id": 283,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Boeing",
+      "metadata": {
+        "chunk_id": 284,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "operates",
+      "metadata": {
+        "chunk_id": 285,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "in a",
+      "metadata": {
+        "chunk_id": 286,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "number of",
+      "metadata": {
+        "chunk_id": 287,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "grids",
+      "metadata": {
+        "chunk_id": 288,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "that rely",
+      "metadata": {
+        "chunk_id": 289,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "significa",
+      "metadata": {
+        "chunk_id": 290,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "antly",
+      "metadata": {
+        "chunk_id": 291,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "on",
+      "metadata": {
+        "chunk_id": 292,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "renewable",
+      "metadata": {
+        "chunk_id": 293,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sources",
+      "metadata": {
+        "chunk_id": 294,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".",
+      "metadata": {
+        "chunk_id": 295,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "• Boeing",
+      "metadata": {
+        "chunk_id": 296,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "did not",
+      "metadata": {
+        "chunk_id": 297,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "sell any",
+      "metadata": {
+        "chunk_id": 298,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 299,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity,",
+      "metadata": {
+        "chunk_id": 300,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "heating",
+      "metadata": {
+        "chunk_id": 301,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "or",
+      "metadata": {
+        "chunk_id": 302,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "cooling",
+      "metadata": {
+        "chunk_id": 303,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "energy.",
+      "metadata": {
+        "chunk_id": 304,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "1",
+      "metadata": {
+        "chunk_id": 305,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".",
+      "metadata": {
+        "chunk_id": 306,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Emissions",
+      "metadata": {
+        "chunk_id": 307,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "(Enterpri",
+      "metadata": {
+        "chunk_id": 308,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ise",
+      "metadata": {
+        "chunk_id": 309,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 1,",
+      "metadata": {
+        "chunk_id": 310,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Scope 2,",
+      "metadata": {
+        "chunk_id": 311,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "and Scope",
+      "metadata": {
+        "chunk_id": 312,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "3",
+      "metadata": {
+        "chunk_id": 313,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Categorie",
+      "metadata": {
+        "chunk_id": 314,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "es",
+      "metadata": {
+        "chunk_id": 315,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "6 and 11)",
+      "metadata": {
+        "chunk_id": 316,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "data is",
+      "metadata": {
+        "chunk_id": 317,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "verified",
+      "metadata": {
+        "chunk_id": 318,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "by an",
+      "metadata": {
+        "chunk_id": 319,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "accredite",
+      "metadata": {
+        "chunk_id": 320,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ed",
+      "metadata": {
+        "chunk_id": 321,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "independe",
+      "metadata": {
+        "chunk_id": 322,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ent",
+      "metadata": {
+        "chunk_id": 323,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "third",
+      "metadata": {
+        "chunk_id": 324,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "party to",
+      "metadata": {
+        "chunk_id": 325,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "the level",
+      "metadata": {
+        "chunk_id": 326,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "of",
+      "metadata": {
+        "chunk_id": 327,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "limited",
+      "metadata": {
+        "chunk_id": 328,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "assurance",
+      "metadata": {
+        "chunk_id": 329,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "e,",
+      "metadata": {
+        "chunk_id": 330,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "see",
+      "metadata": {
+        "chunk_id": 331,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "assurance",
+      "metadata": {
+        "chunk_id": 332,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "statement",
+      "metadata": {
+        "chunk_id": 333,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ts",
+      "metadata": {
+        "chunk_id": 334,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".",
+      "metadata": {
+        "chunk_id": 335,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2",
+      "metadata": {
+        "chunk_id": 336,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". Scope 1",
+      "metadata": {
+        "chunk_id": 337,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "and Scope",
+      "metadata": {
+        "chunk_id": 338,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2 data",
+      "metadata": {
+        "chunk_id": 339,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "represent",
+      "metadata": {
+        "chunk_id": 340,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ts",
+      "metadata": {
+        "chunk_id": 341,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "100% of",
+      "metadata": {
+        "chunk_id": 342,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "the",
+      "metadata": {
+        "chunk_id": 343,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "company.",
+      "metadata": {
+        "chunk_id": 344,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "3",
+      "metadata": {
+        "chunk_id": 345,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". For",
+      "metadata": {
+        "chunk_id": 346,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Scopes 1,",
+      "metadata": {
+        "chunk_id": 347,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2 and 3,",
+      "metadata": {
+        "chunk_id": 348,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "we",
+      "metadata": {
+        "chunk_id": 349,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "calculate",
+      "metadata": {
+        "chunk_id": 350,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 351,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "from CO2,",
+      "metadata": {
+        "chunk_id": 352,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "CH4, N2O,",
+      "metadata": {
+        "chunk_id": 353,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "HFCs,",
+      "metadata": {
+        "chunk_id": 354,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "PFCs, SF6",
+      "metadata": {
+        "chunk_id": 355,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "and NF3",
+      "metadata": {
+        "chunk_id": 356,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "for this",
+      "metadata": {
+        "chunk_id": 357,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "data set.",
+      "metadata": {
+        "chunk_id": 358,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "4",
+      "metadata": {
+        "chunk_id": 359,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". Core",
+      "metadata": {
+        "chunk_id": 360,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "metrics",
+      "metadata": {
+        "chunk_id": 361,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sites",
+      "metadata": {
+        "chunk_id": 362,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "data",
+      "metadata": {
+        "chunk_id": 363,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "represent",
+      "metadata": {
+        "chunk_id": 364,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ts",
+      "metadata": {
+        "chunk_id": 365,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 366,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "of CO2,",
+      "metadata": {
+        "chunk_id": 367,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "CH4 and",
+      "metadata": {
+        "chunk_id": 368,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "N2O where",
+      "metadata": {
+        "chunk_id": 369,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "we track",
+      "metadata": {
+        "chunk_id": 370,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "a subset",
+      "metadata": {
+        "chunk_id": 371,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "of",
+      "metadata": {
+        "chunk_id": 372,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 373,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "from",
+      "metadata": {
+        "chunk_id": 374,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "natural",
+      "metadata": {
+        "chunk_id": 375,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "gas",
+      "metadata": {
+        "chunk_id": 376,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "combustio",
+      "metadata": {
+        "chunk_id": 377,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "on",
+      "metadata": {
+        "chunk_id": 378,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "and",
+      "metadata": {
+        "chunk_id": 379,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "purchased",
+      "metadata": {
+        "chunk_id": 380,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "electrici",
+      "metadata": {
+        "chunk_id": 381,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ity",
+      "metadata": {
+        "chunk_id": 382,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "associate",
+      "metadata": {
+        "chunk_id": 383,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ed",
+      "metadata": {
+        "chunk_id": 384,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "with",
+      "metadata": {
+        "chunk_id": 385,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "sites",
+      "metadata": {
+        "chunk_id": 386,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "that",
+      "metadata": {
+        "chunk_id": 387,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "represent",
+      "metadata": {
+        "chunk_id": 388,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "the",
+      "metadata": {
+        "chunk_id": 389,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "majority",
+      "metadata": {
+        "chunk_id": 390,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "(70%) of",
+      "metadata": {
+        "chunk_id": 391,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Boeing",
+      "metadata": {
+        "chunk_id": 392,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "operation",
+      "metadata": {
+        "chunk_id": 393,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ns.",
+      "metadata": {
+        "chunk_id": 394,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "5",
+      "metadata": {
+        "chunk_id": 395,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ". GHG",
+      "metadata": {
+        "chunk_id": 396,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "intensity",
+      "metadata": {
+        "chunk_id": 397,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "includes",
+      "metadata": {
+        "chunk_id": 398,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Scope 1",
+      "metadata": {
+        "chunk_id": 399,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "and Scope",
+      "metadata": {
+        "chunk_id": 400,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "2",
+      "metadata": {
+        "chunk_id": 401,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "(market-b",
+      "metadata": {
+        "chunk_id": 402,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "based)",
+      "metadata": {
+        "chunk_id": 403,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "GHG (CO2,",
+      "metadata": {
+        "chunk_id": 404,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "CH4, N2O,",
+      "metadata": {
+        "chunk_id": 405,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "HFCs,",
+      "metadata": {
+        "chunk_id": 406,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "PFCs, SF6",
+      "metadata": {
+        "chunk_id": 407,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "and NF3).",
+      "metadata": {
+        "chunk_id": 408,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "6",
+      "metadata": {
+        "chunk_id": 409,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".  Use of",
+      "metadata": {
+        "chunk_id": 410,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 3
+      }
+    },
+    {
+      "content": "sold",
+      "metadata": {
+        "chunk_id": 411,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "products",
+      "metadata": {
+        "chunk_id": 412,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 413,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "are based",
+      "metadata": {
+        "chunk_id": 414,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "on",
+      "metadata": {
+        "chunk_id": 415,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "estimated",
+      "metadata": {
+        "chunk_id": 416,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "lifetime",
+      "metadata": {
+        "chunk_id": 417,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 418,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "of Boeing",
+      "metadata": {
+        "chunk_id": 419,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Commercia",
+      "metadata": {
+        "chunk_id": 420,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "al",
+      "metadata": {
+        "chunk_id": 421,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Airplanes",
+      "metadata": {
+        "chunk_id": 422,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "and",
+      "metadata": {
+        "chunk_id": 423,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Boeing",
+      "metadata": {
+        "chunk_id": 424,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Defense",
+      "metadata": {
+        "chunk_id": 425,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Services",
+      "metadata": {
+        "chunk_id": 426,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "product",
+      "metadata": {
+        "chunk_id": 427,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "deliverie",
+      "metadata": {
+        "chunk_id": 428,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "es",
+      "metadata": {
+        "chunk_id": 429,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "in 2022,",
+      "metadata": {
+        "chunk_id": 430,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "including",
+      "metadata": {
+        "chunk_id": 431,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "direct",
+      "metadata": {
+        "chunk_id": 432,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 433,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "from",
+      "metadata": {
+        "chunk_id": 434,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "combustio",
+      "metadata": {
+        "chunk_id": 435,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "on",
+      "metadata": {
+        "chunk_id": 436,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "of fuel",
+      "metadata": {
+        "chunk_id": 437,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "(335M",
+      "metadata": {
+        "chunk_id": 438,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tonnes)",
+      "metadata": {
+        "chunk_id": 439,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "and",
+      "metadata": {
+        "chunk_id": 440,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "indirect",
+      "metadata": {
+        "chunk_id": 441,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "emissions",
+      "metadata": {
+        "chunk_id": 442,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "from",
+      "metadata": {
+        "chunk_id": 443,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "productio",
+      "metadata": {
+        "chunk_id": 444,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "on",
+      "metadata": {
+        "chunk_id": 445,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "of fuel",
+      "metadata": {
+        "chunk_id": 446,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "(50M",
+      "metadata": {
+        "chunk_id": 447,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tonnes).",
+      "metadata": {
+        "chunk_id": 448,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "2023",
+      "metadata": {
+        "chunk_id": 449,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Boeing",
+      "metadata": {
+        "chunk_id": 450,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Sustainab",
+      "metadata": {
+        "chunk_id": 451,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "bility",
+      "metadata": {
+        "chunk_id": 452,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Report",
+      "metadata": {
+        "chunk_id": 453,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Contents",
+      "metadata": {
+        "chunk_id": 454,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Introduct",
+      "metadata": {
+        "chunk_id": 455,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "tion",
+      "metadata": {
+        "chunk_id": 456,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Approach",
+      "metadata": {
+        "chunk_id": 457,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "&",
+      "metadata": {
+        "chunk_id": 458,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Governanc",
+      "metadata": {
+        "chunk_id": 459,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ce",
+      "metadata": {
+        "chunk_id": 460,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "People",
+      "metadata": {
+        "chunk_id": 461,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Products",
+      "metadata": {
+        "chunk_id": 462,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "&",
+      "metadata": {
+        "chunk_id": 463,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Services",
+      "metadata": {
+        "chunk_id": 464,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Operation",
+      "metadata": {
+        "chunk_id": 465,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ns",
+      "metadata": {
+        "chunk_id": 466,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Communiti",
+      "metadata": {
+        "chunk_id": 467,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ies",
+      "metadata": {
+        "chunk_id": 468,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Reporting",
+      "metadata": {
+        "chunk_id": 469,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Key ESG",
+      "metadata": {
+        "chunk_id": 470,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "Data",
+      "metadata": {
+        "chunk_id": 471,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "GRI Index",
+      "metadata": {
+        "chunk_id": 472,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 2
+      }
+    },
+    {
+      "content": "SASB",
+      "metadata": {
+        "chunk_id": 473,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Index",
+      "metadata": {
+        "chunk_id": 474,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "TCFD",
+      "metadata": {
+        "chunk_id": 475,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Index",
+      "metadata": {
+        "chunk_id": 476,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "U.N",
+      "metadata": {
+        "chunk_id": 477,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": ".",
+      "metadata": {
+        "chunk_id": 478,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Sustainab",
+      "metadata": {
+        "chunk_id": 479,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ble",
+      "metadata": {
+        "chunk_id": 480,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Developme",
+      "metadata": {
+        "chunk_id": 481,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ent",
+      "metadata": {
+        "chunk_id": 482,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Goals",
+      "metadata": {
+        "chunk_id": 483,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Awards",
+      "metadata": {
+        "chunk_id": 484,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "and",
+      "metadata": {
+        "chunk_id": 485,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Recogniti",
+      "metadata": {
+        "chunk_id": 486,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ion",
+      "metadata": {
+        "chunk_id": 487,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Select",
+      "metadata": {
+        "chunk_id": 488,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Membershi",
+      "metadata": {
+        "chunk_id": 489,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ips",
+      "metadata": {
+        "chunk_id": 490,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "and",
+      "metadata": {
+        "chunk_id": 491,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Partnersh",
+      "metadata": {
+        "chunk_id": 492,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "hips",
+      "metadata": {
+        "chunk_id": 493,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Forward-L",
+      "metadata": {
+        "chunk_id": 494,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Looking",
+      "metadata": {
+        "chunk_id": 495,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "Statement",
+      "metadata": {
+        "chunk_id": 496,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "ts",
+      "metadata": {
+        "chunk_id": 497,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    },
+    {
+      "content": "74",
+      "metadata": {
+        "chunk_id": 498,
+        "page_number": 1,
+        "page_range": "1",
+        "word_count": 1
+      }
+    }
+  ]
+}

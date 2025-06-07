@@ -550,56 +550,28 @@ async def delete_embedded_doc(doc_name: str):
 async def parse_file(
     file: UploadFile = File(...),
     loading_method: str = Form(...),
-    parsing_option: str = Form(...)
+    parsing_option: str = Form(...),
+    file_type: str = Form(None)
 ):
     try:
-        # Save uploaded file
-        temp_path = os.path.join("temp", file.filename)
-        with open(temp_path, "wb") as buffer:
-            content = await file.read()
-            buffer.write(content)
+        # 自动检测文件类型（如果未提供）
+        if not file_type:
+            file_ext = os.path.splitext(file.filename)[1].lower()
+            if file_ext == '.pdf':
+                file_type = 'pdf'
+            elif file_ext == '.md':
+                file_type = 'markdown'
+            else:
+                raise ValueError(f"Unsupported file type: {file_ext}")
         
-        # Prepare metadata
-        metadata = {
-            "filename": file.filename,
-            "loading_method": loading_method,
-            "original_file_size": len(content),
-            "processing_date": datetime.now().isoformat(),
-            "parsing_method": parsing_option,
-        }
+        # 根据文件类型选择合适的加载方法（如果用户没有特别指定）
+        if loading_method == 'auto':
+            if file_type == 'pdf':
+                loading_method = 'pymupdf'  # PDF 默认使用 PyMuPDF
+            elif file_type == 'markdown':
+                loading_method = 'unstructured'  # Markdown 默认使用 Unstructured
         
-        loading_service = LoadingService()
-        raw_text = loading_service.load_pdf(temp_path, loading_method)
-        metadata["total_pages"] = loading_service.get_total_pages()
-        
-        page_map = loading_service.get_page_map()
-        
-        parsing_service = ParsingService()
-        parsed_content = parsing_service.parse_pdf(
-            raw_text, 
-            parsing_option, 
-            metadata,
-            page_map=page_map
-        )
-        
-        # Clean up temp file
-        os.remove(temp_path)
-        
-        return {"parsed_content": parsed_content}
-    except Exception as e:
-        logger.error(f"Error parsing file: {str(e)}")
-        raise
-
-@app.post("/load")
-async def load_file(
-    file: UploadFile = File(...),
-    loading_method: str = Form(...),
-    strategy: str = Form(None),
-    chunking_strategy: str = Form(None),
-    chunking_options: str = Form(None)
-):
-    try:
-        # 保存上传的文件
+        # 保存上传文件
         temp_path = os.path.join("temp", file.filename)
         with open(temp_path, "wb") as buffer:
             content = await file.read()
@@ -608,11 +580,76 @@ async def load_file(
         # 准备元数据
         metadata = {
             "filename": file.filename,
+            "loading_method": loading_method,
+            "original_file_size": len(content),
+            "processing_date": datetime.now().isoformat(),
+            "parsing_method": parsing_option,
+            "file_type": file_type
+        }
+        
+        # 使用 LoadingService 加载文档
+        loading_service = LoadingService()
+        raw_text = loading_service.load_document(temp_path, loading_method, file_type=file_type)
+        metadata["total_pages"] = loading_service.get_total_pages()
+        
+        page_map = loading_service.get_page_map()
+        
+        # 使用 ParsingService 解析文档
+        parsing_service = ParsingService()
+        parsed_content = parsing_service.parse_document(
+            temp_path,  # 传递文件路径，用于提取图片和表格
+            raw_text, 
+            parsing_option, 
+            metadata,
+            page_map=page_map
+        )
+        
+        # 清理临时文件
+        os.remove(temp_path)
+        
+        return {"parsed_content": parsed_content}
+    except Exception as e:
+        logger.error(f"Error parsing file: {str(e)}")
+        # 确保临时文件被删除
+        if 'temp_path' in locals() and os.path.exists(temp_path):
+            os.remove(temp_path)
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/load")
+async def load_file(
+    file: UploadFile = File(...),
+    loading_method: str = Form(...),
+    strategy: str = Form(None),
+    chunking_strategy: str = Form(None),
+    chunking_options: str = Form(None),
+    file_type: str = Form(None)
+):
+    try:
+        # 保存上传的文件
+        temp_path = os.path.join("temp", file.filename)
+        with open(temp_path, "wb") as buffer:
+            content = await file.read()
+            buffer.write(content)
+        
+        # 自动检测文件类型（如果未提供）
+        if not file_type:
+            file_ext = os.path.splitext(file.filename)[1].lower()
+            if file_ext == '.pdf':
+                file_type = 'pdf'
+            elif file_ext == '.md':
+                file_type = 'markdown'
+            else:
+                raise ValueError(f"Unsupported file type: {file_ext}")
+        
+        # 准备元数据
+        metadata = {
+            "filename": file.filename,
             "total_chunks": 0,  # 将在后面更新
             "total_pages": 0,   # 将在后面更新
             "loading_method": loading_method,
             "loading_strategy": strategy,  
-            "chunking_strategy": chunking_strategy, 
+            "chunking_strategy": chunking_strategy,
+            "file_type": file_type,
             "timestamp": datetime.now().isoformat()
         }
         
@@ -623,9 +660,10 @@ async def load_file(
         
         # 使用 LoadingService 加载文档
         loading_service = LoadingService()
-        raw_text = loading_service.load_pdf(
+        raw_text = loading_service.load_document(
             temp_path, 
             loading_method, 
+            file_type=file_type,
             strategy=strategy,
             chunking_strategy=chunking_strategy,
             chunking_options=chunking_options_dict
